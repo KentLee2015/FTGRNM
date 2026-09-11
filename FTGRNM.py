@@ -290,7 +290,7 @@ for rate in [0.3]:
                     dense_vec, sparse_vec,
                     varphi, theta, mu, rho,
                     r, lookback, period,
-                    maxiter=50
+                    maxiter=200
                 )
                 print("Time:", time.time() - start)
                 MAPE.append(mape)
